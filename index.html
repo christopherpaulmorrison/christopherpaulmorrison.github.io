@@ -1,18 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      id="favicon"
-      rel="icon"
-      type="image/x-icon"
-      href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
-    />
-    <title>Christopher Paul Morrison</title>
-  </head>
-  <body>
-    <h1>Christopher Paul Morrison</h1>
-    <h2>Personal Web Page</h2>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christopher Paul Morrison</title>
+  <meta name="description" content="Thoughts on technology, leadership, and building things that matter.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="site-header">
+      <h1 class="site-header__name"><a href="./">Christopher Paul Morrison</a></h1>
+      <p class="site-header__tagline">Thoughts on technology, leadership, and building things that matter.</p>
+      <nav class="site-header__nav">
+        <a href="./">Writing</a>
+        <a href="https://github.com/christopherpaulmorrison">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <p class="section-label">Latest</p>
+
+      <ul class="post-list">
+        <li class="post-card">
+          <time class="post-card__date" datetime="2026-02-10">February 10, 2026</time>
+          <h2 class="post-card__title">
+            <a href="posts/building-in-public.html">Building in Public</a>
+          </h2>
+          <p class="post-card__excerpt">
+            There's a certain vulnerability to sharing your work before it's ready. But the feedback loops you create by building in public are worth far more than the comfort of secrecy.
+          </p>
+          <a href="posts/building-in-public.html" class="post-card__read-more">Continue reading</a>
+        </li>
+
+        <li class="post-card">
+          <time class="post-card__date" datetime="2026-01-28">January 28, 2026</time>
+          <h2 class="post-card__title">
+            <a href="posts/lessons-from-leading-teams.html">Lessons from Leading Teams</a>
+          </h2>
+          <p class="post-card__excerpt">
+            After years of leading engineering teams, I've learned that the best managers don't manage work — they create the conditions where great work happens naturally.
+          </p>
+          <a href="posts/lessons-from-leading-teams.html" class="post-card__read-more">Continue reading</a>
+        </li>
+
+        <li class="post-card">
+          <time class="post-card__date" datetime="2026-01-15">January 15, 2026</time>
+          <h2 class="post-card__title">
+            <a href="posts/the-art-of-simplicity.html">The Art of Simplicity</a>
+          </h2>
+          <p class="post-card__excerpt">
+            The hardest part of software design isn't adding features — it's knowing what to leave out. Simplicity is a discipline, not a default.
+          </p>
+          <a href="posts/the-art-of-simplicity.html" class="post-card__read-more">Continue reading</a>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__links">
+        <a href="https://github.com/christopherpaulmorrison">GitHub</a>
+        <a href="https://linkedin.com/in/christopherpaulmorrison">LinkedIn</a>
+      </div>
+      <p class="site-footer__copy">&copy; 2026 Christopher Paul Morrison</p>
+    </footer>
+
+  </div>
+
+</body>
 </html>

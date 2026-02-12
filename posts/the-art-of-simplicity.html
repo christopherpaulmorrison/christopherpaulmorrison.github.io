@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Art of Simplicity — Christopher Paul Morrison</title>
+  <meta name="description" content="The hardest part of software design isn't adding features — it's knowing what to leave out. Simplicity is a discipline, not a default.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="site-header">
+      <h1 class="site-header__name"><a href="../">Christopher Paul Morrison</a></h1>
+      <p class="site-header__tagline">Thoughts on technology, leadership, and building things that matter.</p>
+      <nav class="site-header__nav">
+        <a href="../">Writing</a>
+        <a href="https://github.com/christopherpaulmorrison">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <div class="post-header">
+          <a href="../" class="post-header__back">All posts</a>
+          <h1 class="post-header__title">The Art of Simplicity</h1>
+          <div class="post-header__meta">
+            <span>January 15, 2026</span>
+            <span>5 min read</span>
+          </div>
+        </div>
+
+        <div class="post-content">
+          <p>The hardest part of software design isn't adding features — it's knowing what to leave out. Simplicity is a discipline, not a default. Left to entropy, every system trends toward complexity. It takes deliberate effort to keep things simple.</p>
+
+          <h2>Complexity is a debt</h2>
+
+          <p>Every line of code you write is a liability. It needs to be read, understood, maintained, and eventually changed. The more code you have, the harder all of those things become.</p>
+
+          <p>I've seen projects collapse not from a single bad decision, but from the accumulated weight of hundreds of small ones. Each individually reasonable. Together, suffocating.</p>
+
+          <blockquote>
+            Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. — Antoine de Saint-Exupery
+          </blockquote>
+
+          <p>This isn't just a nice quote. It's an engineering principle. The most elegant solutions I've encountered — in code, in products, in organizations — are the ones that do less, better.</p>
+
+          <h2>The three questions</h2>
+
+          <p>Before adding anything to a system — a feature, an abstraction, a dependency — I ask three questions:</p>
+
+          <ol>
+            <li><strong>What problem does this solve?</strong> If you can't articulate the problem clearly, you're not ready to build the solution.</li>
+            <li><strong>What's the simplest thing that could work?</strong> Not the cleverest. Not the most scalable. The simplest. You can always add complexity later; removing it is much harder.</li>
+            <li><strong>What's the cost of not doing this?</strong> Sometimes the answer is "nothing much." That's a strong signal to wait.</li>
+          </ol>
+
+          <p>These questions have saved me from more unnecessary abstractions, premature optimizations, and over-engineered solutions than any design pattern ever has.</p>
+
+          <h2>The abstraction trap</h2>
+
+          <p>There's a seductive pull toward abstraction in software. We see duplication and our instinct says "abstract it." We imagine future requirements and our instinct says "make it flexible."</p>
+
+          <p>But premature abstraction is more dangerous than duplication. Duplication is obvious and easy to fix when you understand the pattern. A wrong abstraction, on the other hand, becomes a foundation that other code builds on. Fixing it means rethinking everything above it.</p>
+
+          <p>I've adopted a simple rule: wait until you've seen a pattern three times before abstracting it. The first two times, you don't have enough information. The third time, the right abstraction usually reveals itself.</p>
+
+          <h2>Simplicity in practice</h2>
+
+          <p>What does simplicity look like day to day? A few patterns I've found valuable:</p>
+
+          <ul>
+            <li><strong>Flat over nested.</strong> Deeply nested structures — whether in code, file systems, or organizations — are harder to navigate and reason about.</li>
+            <li><strong>Explicit over implicit.</strong> Magic is the enemy of understanding. Make the important things visible.</li>
+            <li><strong>Fewer, better dependencies.</strong> Each dependency is a bet on someone else's priorities, maintenance habits, and security practices. Choose carefully.</li>
+            <li><strong>Names that explain.</strong> If a variable, function, or module needs a comment to explain what it does, it needs a better name.</li>
+          </ul>
+
+          <h2>The courage to delete</h2>
+
+          <p>Perhaps the most underrated skill in software is the willingness to delete code. Not archive it. Not comment it out. Delete it.</p>
+
+          <p>Version control means nothing is truly lost. But psychologically, we cling to code we've written. We remember the effort it took. We imagine the future scenario where we might need it again.</p>
+
+          <p>We almost never do.</p>
+
+          <p>The most productive refactoring sessions I've had weren't about rewriting code — they were about removing it. Every line deleted is a line that never needs to be debugged, documented, or explained to a new team member.</p>
+
+          <hr>
+
+          <p>Simplicity isn't the easy path. It requires saying no to good ideas in service of great ones. It demands the humility to admit you don't know what the future holds, and the discipline to build only what you need today. But the reward — systems that are a joy to work in, products that users actually understand, teams that move fast because they're not fighting their own tools — is worth every "no" along the way.</p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__links">
+        <a href="https://github.com/christopherpaulmorrison">GitHub</a>
+        <a href="https://linkedin.com/in/christopherpaulmorrison">LinkedIn</a>
+      </div>
+      <p class="site-footer__copy">&copy; 2026 Christopher Paul Morrison</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
