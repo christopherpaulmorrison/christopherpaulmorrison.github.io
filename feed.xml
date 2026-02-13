@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Paul Morrison</title>
+    <link>https://christopherpaulmorrison.github.io/</link>
+    <description>Thoughts on technology, leadership, and building things that matter.</description>
+    <language>en-us</language>
+    <atom:link href="https://christopherpaulmorrison.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Building in Public</title>
+      <link>https://christopherpaulmorrison.github.io/posts/building-in-public.html</link>
+      <description>There's a certain vulnerability to sharing your work before it's ready. But the feedback loops you create by building in public are worth far more than the comfort of secrecy.</description>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <guid>https://christopherpaulmorrison.github.io/posts/building-in-public.html</guid>
+    </item>
+    <item>
+      <title>Lessons from Leading Teams</title>
+      <link>https://christopherpaulmorrison.github.io/posts/lessons-from-leading-teams.html</link>
+      <description>After years of leading engineering teams, I've learned that the best managers don't manage work — they create the conditions where great work happens naturally.</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://christopherpaulmorrison.github.io/posts/lessons-from-leading-teams.html</guid>
+    </item>
+    <item>
+      <title>The Art of Simplicity</title>
+      <link>https://christopherpaulmorrison.github.io/posts/the-art-of-simplicity.html</link>
+      <description>The hardest part of software design isn't adding features — it's knowing what to leave out. Simplicity is a discipline, not a default.</description>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://christopherpaulmorrison.github.io/posts/the-art-of-simplicity.html</guid>
+    </item>
+  </channel>
+</rss>
